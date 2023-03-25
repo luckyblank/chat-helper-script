@@ -1,37 +1,50 @@
 # chat-helper-script
 
-#### 介绍
-tampermonkey插件的js脚本之ChatGPT助手，免科学上网，免输入key
+This template should help get you started developing Tampermonkey UserScript.
 
-#### 软件架构
-软件架构说明
+- Support ESNext and ES Modules
+- Support CSS Modules and sass, scss, less, stylus
+- Support SVG Sprite
+- Support deal with static resources
+- Support international languages
+- It's build with rollup, thus you can add external plugins to achieve needed helpers
 
+## Settings
 
-#### 安装教程
+### How to use CSS Processor(sass, scss, less, stylus)?
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Install corresponding dependency:
 
-#### 使用说明
+- For Sass install node-sass: yarn add node-sass --dev
+- For Stylus Install stylus: yarn add stylus --dev
+- For Less Install less: yarn add less --dev
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+That's it, you can now import .styl .scss .sass .less files in your library.
 
-#### 参与贡献
+([Follow this guide](https://www.npmjs.com/package/rollup-plugin-postcss/v/2.4.1#with-sassstylusless))
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+### How to add SVG to Sprite?
 
+Settle the svg file to + `src/svg`folder, and import it to sprite.js.
 
-#### 特技
+### How to add plugins to rollup?
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Config it in `src/rollup_configs/default.js`.
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Watch and Compile for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
