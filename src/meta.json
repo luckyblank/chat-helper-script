@@ -16,7 +16,7 @@
     "https://cdn.bootcdn.net/ajax/libs/layer/3.5.1/layer.js",
     "https://cdn.staticfile.org/vue/2.7.0/vue.min.js",
     "https://unpkg.com/element-ui/lib/index.js",
-    "http://demo.htmleaf.com/1512/201512011606/dist/typeit.min.js",
+    "https://cdn.jsdelivr.net/npm/typeit@2.0.2/dist/typeit.min.js",
     "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js",
     "https://unpkg.com/axios/dist/axios.min.js",
     "https://cdn.jsdelivr.net/npm/marked@4.2.3/marked.min.js",
@@ -42,5 +42,6 @@
     "GM_addElement"
   ],
   "@resource":[
-  ]
+  ],
+  "@license":"MIT"
 }

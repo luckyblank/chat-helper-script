@@ -13,7 +13,7 @@
 // @require        https://cdn.bootcdn.net/ajax/libs/layer/3.5.1/layer.js
 // @require        https://cdn.staticfile.org/vue/2.7.0/vue.min.js
 // @require        https://unpkg.com/element-ui/lib/index.js
-// @require        http://demo.htmleaf.com/1512/201512011606/dist/typeit.min.js
+// @require        https://cdn.jsdelivr.net/npm/typeit@2.0.2/dist/typeit.min.js
 // @require        https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
 // @require        https://unpkg.com/axios/dist/axios.min.js
 // @require        https://cdn.jsdelivr.net/npm/marked@4.2.3/marked.min.js
@@ -32,6 +32,7 @@
 // @grant          GM_addElement
 // @grant          GM_openInTab
 // @grant          GM_getResourceText
+// @license        MIT
 // ==/UserScript==
 (function () {
   'use strict';
